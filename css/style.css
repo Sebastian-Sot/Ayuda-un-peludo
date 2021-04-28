@@ -47,18 +47,15 @@ body {
 
 }
 
-#medio, #fin{
-    background: rgb(112, 112, 112);
-    width: 100%;
-}
+
 
 #medio{
     text-align: center;
-}
-
-.logo-burguer{
+    background-image: "img/original.jpg";
     width: 100%;
 }
+
+
 
 #fin{
     background-color: black;
@@ -126,18 +123,59 @@ body {
     text-align: center;
 }
 
+.foto-productos{
+    width: 25%;   
+    padding-top: 0px;
+    text-align: center;
+    padding-left: 50px; 
+}
+
+.foto-productos1{
+    width: 25%;   
+    padding-top: 10''0px;
+    text-align: center; 
+}
+
 .foto-productos-s{
     width: 70%;   
-    padding-top: 150px;
+    padding-top: 120px;
     text-align: center; 
     padding-left: 50px;
 }
+
+.foto-productos-m{
+    width: 50%;   
+    padding-top: 113px;
+    text-align: center; 
+    padding-left: 50px;
+}
+
 .foto-nosotros{
     width: 85%;   
     padding-top: 100px;
     text-align: center; 
     padding-left: 50px;
 }
+
+.textop{
+    font-family: 'Showcard Gothic';
+    font-size: 2em;
+    color: rgb(0, 0, 0);
+    font-weight:bolder ; 
+    text-align: left;
+    padding-top: 110px;
+    padding-left: 400px;
+}
+.textop2{
+    font-family: 'Showcard Gothic';
+    font-size: 2em;
+    color: rgb(0, 0, 0);
+    font-weight:bolder ; 
+    text-align: left;
+    padding-top: 60px;
+    padding-left: 400px;
+}
+
 .textop-s1{
     font-family: 'Lucida Handwriting';
     font-size: 1.5em;
@@ -186,4 +224,29 @@ body {
     padding-top: 350px;
     padding-right: 10px;
     
+}
+#ubicacion1{
+    text-align: left;
+    padding-right: 10 px;
+}
+#ubicacion{
+    background: #FFF;
+    text-align: right;
+}
+#informacion{
+    padding-top: 30px;
+    margin-bottom: 30px;
+    column-count: 2;
+    text-align: center;
+}
+
+.textop1{
+    font-family: 'Showcard Gothic';
+    font-size: 2em;
+    color: black;
+    font-weight:bolder ; 
+    text-align: left;
+    padding-top: 30px;
+    padding-left: 300px;
+    text-align: center;
 }
