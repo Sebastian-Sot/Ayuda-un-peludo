@@ -107,6 +107,7 @@ body {
 }
 
 #pie{
+    min-height: calc(100% - 4rem);
     background:cadetblue;
     height: 114px;
     font-family: 'Open Sans', Arial;
@@ -250,3 +251,13 @@ body {
     padding-left: 300px;
     text-align: center;
 }
+
+
+.margenTop10 {
+    margin-top: 2%;
+}
+
+.footer {
+    height: 4rem;
+
+  }
