@@ -21,7 +21,7 @@ function cargar_clima(){
     var velocidadViento = datos.wind.speed;
 
 
-    
+
     $('#ubicacion').html(ciudad);
     $('#temperatura').html(temperatura);
     $('#humedad').html(humedad);
@@ -32,3 +32,6 @@ function cargar_clima(){
     $('#datosDelClima').show();
 
 }
+
+
+

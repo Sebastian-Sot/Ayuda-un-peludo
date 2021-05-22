@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="fonts/style.css" />
     <link rel="stylesheet" href="css/style.css" />
-    <title>Rudeus</title>
+    <title>Ubicación</title>
 </head>
 <body background="img/original.jpg" >
     <div>
@@ -30,30 +30,17 @@
                     </nav>  
                 </div>   
             </header>
-       </div>
-        <div>
-            <section id=productos-s>
-                <h2 class="textop-s">Rudeus:</h2>
-                <img class= "foto-productos-m" src="img/Rudeus.jpg" /> 
-                <h2 class="textop-sp">Un perro de edad mediana, que es muy amigable con las personas,<br>
-                ladra mucho y es un buen amigo para ser acompañado toda su vida.
-                </h2></br> 
-                <h2 class="textop-s1">Descripcion:<br> 
-                    -Edad: 1 año</br> 
-                    -Sexo: Masculino<br>
-                    -Color: Castaño claro</br>
-                    -Raza: Desconocida<br>
-                    -Esterelizado: Si</br>
-                    -Numero de chip:76537730710891<br></h2></br>
-                <a href="Formulario.html" class="textop-s"  >Adoptar </a>
-            </section>
-        </div>
-        <div>
+      <div>Ubicacion de la veterinaria.</div>
+        <div id="map"></div>
+        
             <footer id="pie">
                 <p class="texto11">Veterinaria AAUP Ltda. © 2021</p>    
             </footer>
         </div>
     </div>
-
+    
+    
+    <script src="js/geolocalizacion.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBDaeWicvigtP9xPv919E-RNoxfvC-Hqik&callback=iniciarMap"></script>
 </body>
 </html>
